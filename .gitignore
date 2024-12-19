@@ -1,0 +1,99 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.mo
+*.pot
+*.py[cod]
+*.pyo
+*.pyd
+__pycache__/
+*.coverage
+*.cover
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+*.mo
+*.pot
+
+Back/venv/
+
+# Django Backend
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+*.py[cod]
+*$py.class
+
+# Python virtual environment
+venv/
+ENV/
+.env
+.venv
+env/
+env.bak/
+venv.bak/
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# React Frontend
+# dependencies
+Front/node_modules
+Front/.pnp
+Front/.pnp.js
+
+# testing
+Front/coverage
+
+# production
+Front/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+Front/npm-debug.log*
+Front/yarn-debug.log*
+Front/yarn-error.log*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
